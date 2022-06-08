@@ -62,7 +62,7 @@ body {
     display: none;
 }
 
-/* MOBILE HEADER AND IMAGE BACKGORUND */
+/* MOBILE HEADER AND IMAGE BACKGROUND */
 
 .mobileHeader {
     display: flex;
@@ -75,6 +75,7 @@ body {
 }
 
 .bgIntroMobile {
+    min-height: 90%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -90,6 +91,7 @@ body {
 }
 
 .phonesMobile {
+    height: 100%;
     width: 100%;
     position: relative;
     top: -110px;
