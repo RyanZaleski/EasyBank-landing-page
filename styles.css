@@ -85,16 +85,26 @@ body {
 
 .mainWrapper{
     position: relative;
-    bottom: 30px;
     left: 0;
     width: 100%;
+}
+
+.mainLeft {
+    bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 20px;
 }
 
 .phonesMobile {
     height: 100%;
     width: 100%;
     position: relative;
-    top: -110px;
+    bottom: 100px;
     z-index: 2;
     display: block;
     margin: 0 auto;
@@ -105,13 +115,12 @@ body {
 
 main {
     position: relative;
-    bottom: 60px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    padding: 0 20px;
+    bottom: 30px;
 }
 
 main h1{
@@ -147,9 +156,11 @@ main button a, footer button a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 25px;
+    gap: 50px;
     padding: 50px 30px;
     background: hsl(220, 16%, 96%);
+    position: relative;
+    bottom: 50px;
 }
 
 .whyChooseEasybankTitle {
@@ -285,6 +296,131 @@ footer span {
     padding-bottom: 30px;
     color: hsl(233, 8%, 62%);
 }
+
+.center {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+}
+
+
+@media screen and (min-width:1024px){
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    }
+
+/***** DESKTOP HEADER *****/
+
+.desktopHidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border: 1px solid red;
+    z-index: 3;
+    position: relative;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: hsl(233, 8%, 62%);
+    font-weight: 300;
+}
+
+main button, footer button, header button {
+    background: linear-gradient(-50deg, hsl(192, 70%, 51%) 8%, hsl(136, 65%, 51%) 92%);
+    border: none;
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+main button a, footer button a, header button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/***** DESKTOP MAIN *****/
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: none;
+    overflow: hidden;
+}
+
+.mainLeft {
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 0 150px 150px;
+    
+}
+
+.bgIntroMobile {
+    width: 150%;
+    position: absolute;
+    bottom: 320px;
+    left: -100px;
+    z-index: 2;
+}
+
+.mainWrapper{
+    position: relative;
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+
+.phonesMobile {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    bottom: 15%;
+    left: 15%;
+}
+
+.mainLeft h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    border: 1px solid red;
+    line-height: 4rem;
+    width: 70%;
+}
+
+.mainLeft p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 68%;
+    
+    
+}
+
+
+
+
 
 
 
