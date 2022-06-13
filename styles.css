@@ -320,9 +320,9 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 150px;
     background: white;
     border: 1px solid red;
     z-index: 3;
@@ -354,6 +354,8 @@ main button a, footer button a, header button a {
     color: white;
     text-decoration: none;
     font-weight: 400;
+    font-size: 0.85rem;
+    letter-spacing: 0.75px;
 }
 
 /***** DESKTOP MAIN *****/
@@ -371,10 +373,10 @@ main {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 200px 0 0 150px;
     align-items: flex-start;
     gap: 30px;
-    padding: 0 0 150px 150px;
+    
     
 }
 
@@ -403,17 +405,18 @@ main {
 }
 
 .mainLeft h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 300;
     border: 1px solid red;
     line-height: 4rem;
-    width: 70%;
+    width: 55%;
+    color: hsl(233, 26%, 24%);
 }
 
 .mainLeft p {
     font-size: 1.2rem;
     line-height: 1.8rem;
-    width: 68%;
+    width: 55%;
     color: hsl(220, 8%, 62%);
     font-weight: 300;
     
