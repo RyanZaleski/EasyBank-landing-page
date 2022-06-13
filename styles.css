@@ -51,7 +51,7 @@ table {
 
 /* MOBILE PHONT LAYOUT */
 
-@media screen and (max-width:767px){
+@media screen and (max-width:1200px){
 
 body {
     width: 100%;
@@ -305,7 +305,7 @@ footer span {
 }
 
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1200px){
 
 body {
     font-family: 'Public Sans', sans-serif;
