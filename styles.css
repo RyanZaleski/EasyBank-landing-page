@@ -419,8 +419,63 @@ main {
     width: 55%;
     color: hsl(220, 8%, 62%);
     font-weight: 300;
-    
-    
+}
+
+/***** DESKTOP WHY CHOOSE EASYBANK *****/
+
+.whyChooseEasybank {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px 150px 150px;
+    gap: 50px;
+    background: hsl(220, 16%, 96%);
+    position: relative;
+    bottom: 280px;
+}
+
+.whyChooseEasybankHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: 300;
+}
+
+.whyChooseEasybankHeading p {
+    border: 1px solid red;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: hsl(233, 8%, 62%)
+}
+
+.whyChooseEasybankTitle {
+    border: 1px solid red;
+    font-size: 3rem;
+    color: hsl(233, 26%, 24%);
+}
+
+.fourSections {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.fourSections div {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.fourSections div h2 {
+    font-size: 1.5rem;
+    color: hsl(233, 26%, 24%);
+}
+
+.fourSections div p {
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5rem;
+
 }
 
 
