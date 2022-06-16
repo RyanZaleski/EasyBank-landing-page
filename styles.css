@@ -373,7 +373,8 @@ main {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
-    padding: 200px 0 0 150px;
+    justify-content: center;
+    padding: 0 0 0 150px;
     align-items: flex-start;
     gap: 30px;
     
@@ -383,7 +384,7 @@ main {
 .bgIntroMobile {
     width: 150%;
     position: absolute;
-    bottom: 320px;
+    
     left: -100px;
     z-index: 2;
 }
@@ -400,7 +401,7 @@ main {
     width: 100%;
     position: relative;
     z-index: 2;
-    bottom: 15%;
+    
     left: 15%;
 }
 
@@ -430,7 +431,7 @@ main {
     gap: 50px;
     background: hsl(220, 16%, 96%);
     position: relative;
-    bottom: 400px;
+    
 }
 
 .whyChooseEasybankHeading {
